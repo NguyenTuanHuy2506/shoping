@@ -99,3 +99,21 @@ $('#cost-range').on('input',function(){
       else{$('.choose-cost').first().html("$0");}
       $('.choose-cost').last().html("$"+la);       
 });
+
+$('.menu-clother-item').on('click',function(){
+	var arrowState = $(this).attr('aria-expanded');
+	var arrowIcon = $(this).find('span').html();
+	if(arrowState === 'false')
+	{
+		$(this).find('span').html('<i class='+'"fas fa-angle-up"'+'></i>');
+	}
+	else
+	{
+		$(this).find('span').html('<i class='+'"fas fa-angle-down"'+'></i>');
+
+	}
+
+
+	//var aaa = $(this).find('span').html("<i class='fas fa-sort-up'></i>");
+	console.log(arrowState);
+});

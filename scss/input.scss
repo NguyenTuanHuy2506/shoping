@@ -722,14 +722,11 @@ $col_lightblue:#33ccff;
 	margin-bottom: 0 !important;
 	.form-control{
 		min-width: 8em !important;
-		option{
-			padding-left: 1em; border:0 !important;
-		}
-		option:focus{
-			background-color: red !important;
-
-		}
 	}
+}
+.opt-custom{
+	outline: 0 !important;
+	
 }
 .pagination{
 		margin-bottom:0 !important;

@@ -676,11 +676,9 @@
   margin-bottom: 0 !important; }
   .form-group .form-control {
     min-width: 8em !important; }
-    .form-group .form-control option {
-      padding-left: 1em;
-      border: 0 !important; }
-    .form-group .form-control option:focus {
-      background-color: red !important; }
+
+.opt-custom {
+  outline: 0 !important; }
 
 .pagination {
   margin-bottom: 0 !important; }
